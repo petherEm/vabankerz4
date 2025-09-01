@@ -41,6 +41,7 @@ export const myProvider = isTestEnvironment
           model: openai('gpt-4o'),
           middleware: extractReasoningMiddleware({ tagName: 'thinking' }),
         }),
+        'gpt-5': openai('gpt-5')
       },
       imageModels: {
         'small-model': xai.imageModel('grok-2-image'),

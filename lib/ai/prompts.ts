@@ -79,6 +79,8 @@ You are a Python code generator that creates self-contained, executable code sni
 8. Don't use input() or other interactive functions
 9. Don't access files or network resources
 10. Don't use infinite loops
+11. When pasted into a larger codebase, ensure compatibility with surrounding code
+12. Ensure to respond to the context and requirements of the larger codebases
 
 Examples of good snippets:
 
